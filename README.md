@@ -10,7 +10,7 @@ A galgame developed by NJU 5A641.
 
 ### ./pics
 
-图片文件，包括背景（1920\*1080）与立绘。
+图片文件，包括背景（1920\*1080）与立绘。[http://www.nvlmaker.net/material.html](http://www.nvlmaker.net/material.html)有一些素材。
 
 ### ./draft
 
@@ -90,6 +90,7 @@ A galgame developed by NJU 5A641.
 - 阶段性软件测试
 - 准备人物立绘、主题曲
 - 将这一周的Release发放给内测用户
+- CV
 
 ### 第十周
 
@@ -100,12 +101,14 @@ A galgame developed by NJU 5A641.
 - 主题曲的变奏
 - 替换立绘占位素材
 - 将这一周的Release发放给内测用户
+- CV
 
 ### 第十一周
 
 - 完成全部剧本的程序实现
 - 整体性软件测试
 - 将这一周的Release发放给内测用户
+- CV
 
 ### 第十二周
 
@@ -132,7 +135,7 @@ A galgame developed by NJU 5A641.
 孙际儒：
 - 产品经理
 - 立绘
-- CV（雾）
+- CV（女性角色）
 - 剧本
 - 客户经理
 
@@ -140,3 +143,4 @@ A galgame developed by NJU 5A641.
 - 背景
 - 剧本
 - pre
+- CV（男性角色）
