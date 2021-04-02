@@ -26,5 +26,6 @@ label start:
     e "当您完善了故事、图片和音乐之后，您就可以向全世界发布了！"
 
     # 此处为游戏结尾。
-
+    jump test
+    
     return

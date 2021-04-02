@@ -1,40 +1,41 @@
-Tue Mar 30 11:25:43 2021
+Tue Mar 30 18:43:49 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
  
 
 Bootstrap to the start of init.init took 0.08s
 Early init took 0.00s
-Loader init took 0.10s
-Loading error handling took 0.05s
-Loading script took 0.19s
-Loading save slot metadata. took 0.01s
+Loader init took 0.02s
+Loading error handling took 0.04s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
-Loading analysis data took 0.03s
+Running init code took 0.06s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Dump and make backups. took 0.07s
+Backing up script files to 'C:\\Users\\yuyake\\AppData\\Roaming/RenPy/backups\\cncarbonneutralization':
+Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 2.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: "Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.16s
+Interface start took 0.10s
 
 Initializing gl renderer:
 primary display bounds: (0, 0, 2736, 1824)
@@ -61,4 +62,4 @@ Texture testing:
 Screen sizes: virtual=(1920, 1080) physical=(2634, 1482) drawable=(2634, 1482)
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
-Total time until interface ready: 1.91938400269s
+Total time until interface ready: 1.5945379734s
