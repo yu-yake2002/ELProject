@@ -11,7 +11,7 @@
 ##
 ## 带有 _() 的字符串表示其可被翻译。
 
-define config.name = _("cncarbonneutralization")
+define config.name = _("对绿色我们永远向往")
 
 
 ## 决定上面给出的标题是否显示在标题界面屏幕。设置为 False 来隐藏标题。
@@ -21,19 +21,28 @@ define gui.show_name = True
 
 ## 游戏版本号。
 
-define config.version = "1.0"
+define config.version = "0.5.0"
 
 
 ## 放置在游戏“关于”屏幕的文本。将文本放在三个引号之间，并在段落之间留一个空行。
 
 define gui.about = _p("""
+南京大学软件学院2021EL程序设计大赛作品
+
+2020级 软件工程 刘承杰
+
+2020级 软件工程 刘晓旭
+
+2020级 计算机科学与技术 孙际儒
+
+2020级 计算机与金融工程实验班 宋俊伯
 """)
 
 
 ## 在生成的发布版中，可执行文件和目录所使用的短名称。此处必须是仅 ASCII 字符，并
 ## 且不得包含空格、冒号和分号。
 
-define build.name = "cncarbonneutralization"
+define build.name = "对绿色我们永远向往"
 
 
 ## 音效和音乐 #######################################################################
@@ -110,7 +119,7 @@ define config.window_hide_transition = Dissolve(.2)
 
 ## 控制默认的文字显示速度。默认的 0 是瞬间，而其他数字则是每秒显示出的字符数。
 
-default preferences.text_cps = 0
+default preferences.text_cps = 20
 
 
 ## 默认的自动前进延迟。越大的数字会产生越长的等待，有效范围为 0 - 30。

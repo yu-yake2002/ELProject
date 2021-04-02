@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script5.rpy", line 3: expected ':' not found.
+    "南星"：
+        ^
+
+Ren'Py Version: Ren'Py 7.4.4.1439
+Fri Apr  2 22:10:31 2021

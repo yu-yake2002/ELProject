@@ -2,13 +2,15 @@
 
 # 声明此游戏使用的角色。颜色参数可使角色姓名着色。
 
-define e = Character("艾琳")
+define j = Character("林枫")
+define a = Character("白芷")
+define d = Character("")
 
+$ choice = [-1, -1, -1]
 
 # 游戏在此开始。
 
 label start:
-
     # 显示一个背景。此处默认显示占位图，但您也可以在图片目录添加一个文件
     # （命名为“bg room.png”或“bg room.jpg”）来显示。
 
@@ -18,13 +20,19 @@ label start:
     # “eileen happy.png”的文件来将其替换掉。
 
     show eileen happy
+    jump chapter1Start
 
-    # 此处显示各行对话。
+label chapter1End:
+    jump chapter2Start
 
-    e "您已创建一个新的 Ren'Py 游戏。"
+label chapter2End:
+    jump chapter3Start
 
-    e "当您完善了故事、图片和音乐之后，您就可以向全世界发布了！"
+label chapter3End:
+    jump chapter4Start
 
-    # 此处为游戏结尾。
+label chapter4End:
+    jump chapter5Start
 
+label chapter5End:
     return

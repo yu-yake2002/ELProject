@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 23, in script
+    jump chapter1Start
+ScriptError: could not find label 'chapter1Start'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 23, in script
+    jump chapter1Start
+  File "renpy/ast.py", line 1711, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 910, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'chapter1Start'.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.4.1439
+cncarbonneutralization 0.5.0
+Fri Apr  2 22:11:04 2021
