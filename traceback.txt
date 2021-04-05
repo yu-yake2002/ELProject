@@ -1,22 +1,68 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 23, in script
-    jump chapter1Start
-ScriptError: could not find label 'chapter1Start'.
+  File "game/screens.rpy", line 345, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 345, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 347, in execute
+    $ renpy.movie_cutscene("../video/零氪工作室.mp4")
+  File "game/screens.rpy", line 347, in <module>
+    $ renpy.movie_cutscene("../video/零氪工作室.mp4")
+Exception: ui.interact called with non-empty widget/layer stack. Did you forget a ui.close() somewhere?
+Stack was <Layer: u'transient'>
+<Many: <Fixed at 53c84d0>>
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 23, in script
-    jump chapter1Start
-  File "renpy/ast.py", line 1711, in execute
-    rv = renpy.game.script.lookup(target)
-  File "renpy/script.py", line 910, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'chapter1Start'.
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "renpy/ast.py", line 922, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2218, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+    python hide:
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3101, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3512, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 567, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 567, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 567, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3512, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 345, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 345, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 347, in execute
+    $ renpy.movie_cutscene("../video/零氪工作室.mp4")
+  File "game/screens.rpy", line 347, in <module>
+    $ renpy.movie_cutscene("../video/零氪工作室.mp4")
+  File "renpy/exports.py", line 1583, in movie_cutscene
+    roll_forward=roll_forward)
+  File "renpy/ui.py", line 292, in interact
+    raise Exception("ui.interact called with non-empty widget/layer stack. Did you forget a ui.close() somewhere?\nStack was " + ('\n'.join([str(item) for item in stack])))
+Exception: ui.interact called with non-empty widget/layer stack. Did you forget a ui.close() somewhere?
+Stack was <Layer: u'transient'>
+<Many: <Fixed at 53c84d0>>
 
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
-cncarbonneutralization 0.5.0
-Fri Apr  2 22:11:04 2021
+对绿色我们永远向往 0.5.0
+Sat Apr  3 18:34:59 2021

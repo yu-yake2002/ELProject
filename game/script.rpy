@@ -8,6 +8,10 @@ define d = Character("")
 
 $ choice = [-1, -1, -1]
 
+label before_main_menu:
+    $ renpy.movie_cutscene("../video/startMovie.mpg")
+    return
+
 # 游戏在此开始。
 
 label start:
