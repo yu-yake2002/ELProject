@@ -1,3 +1,3 @@
 label chapter1Start:
-    m1 ""
+    show baizhi lateral calm
     jump chapter1End
