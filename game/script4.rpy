@@ -1,4 +1,5 @@
 label chapter4Start:
+    scene bg canteen
     "第二天，万叶和白芷又在食堂相遇。"
     show wanye far upset
     m2 "你知道吗？林枫想转到环境学院去！他昨晚喝多了跟我们说的！"

@@ -37,10 +37,10 @@ label chapter7End:
     jump chapter8Start
 label chapter8End:
 menu:
-    "和白芷一起参加南星计划"：
-    jump baizhiLine
-    "和半夏一起参加支教活动"
-    jump banxiaLine
+    "和白芷一起参加南星计划":
+        jump baizhiLine
+    "和半夏一起参加支教活动":
+        jump banxiaLine
 
 label baizhiLine:
     jump chapter9Start

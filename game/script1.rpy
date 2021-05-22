@@ -24,6 +24,7 @@ label chapter1Start:
     f2 "“你好啊！^_^我今天收到了你的信，小哥哥写字写得真好看！”"
     m1 "哈哈，我肯定要给学妹留下一个好印象啊！"
     hide phone
+    scene bg dormitory day
     show wanye far angry
     m2 "咦？等一下！一对一帮扶，男生不是只能帮男生吗！他怎么叫你小哥哥！"
     m2 "难道说，咱们5A641的榆木脑袋终于开窍了吗？说，你是不是对她有意思！"
@@ -51,6 +52,7 @@ label chapter1Start:
     m1 "真是个好孩子啊，真希望她能考上南大。"
     "二模，三模，四模。在相距一千多公里的两个世界，两条时间线有条不紊地向前推进。很快，便来到了蝉鸣之时，高考之季。"
 
+    scene bg dormitory night
     "2016年6月23日晚"
     show phone wechat
     f2 "“怎么办怎么办，要出分了，我现在的手在抖，根本看不下去！”"
@@ -107,12 +109,12 @@ label chapter1Start:
     "半夏笑起来是那么的无害，让人忍不住散发出同样的笑容。"
     hide banxia
     "但是，白芷的脸色怎么这么难看啊……"
-    show baizhi front angry
+    show baizhi near shocked
     f1 "学妹你好！林枫，我去忙我的了啊！"
     m1 "嗯嗯。辛苦啦！"
     "白芷快步朝着来时的方向走去"
     hide baizhi
-    show banxia front curious
+    show banxia near shocked
     f2 "学姐为什么回去了啊？她不是来这边有事要忙吗？"
     m1 "好奇怪啊。"
     jump chapter1End
