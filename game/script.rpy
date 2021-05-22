@@ -36,6 +36,13 @@ label chapter6End:
 label chapter7End:
     jump chapter8Start
 label chapter8End:
+menu:
+    "和白芷一起参加南星计划"：
+    jump baizhiLine
+    "和半夏一起参加支教活动"
+    jump banxiaLine
+
+label baizhiLine:
     jump chapter9Start
 label chapter9End:
     jump chapter10Start
@@ -48,6 +55,9 @@ label chapter12End:
 label chapter13End:
     jump chapter14Start
 label chapter14End:
+    jump endBranch
+
+label banxiaLine:
     jump chapter15Start
 label chapter15End:
     jump chapter16Start
@@ -56,6 +66,9 @@ label chapter16End:
 label chapter17End:
     jump chapter18Start
 label chapter18End:
+    jump endBranch
+
+label endBranch:
     jump chapter19Start
 label chapter19End:
     jump chapter20Start
