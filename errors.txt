@@ -2,9 +2,161 @@
 errors listed below, and try again.
 
 
-File "game/script5.rpy", line 3: expected ':' not found.
-    "南星"：
-        ^
+File "game/script6.rpy", line 1: expected ':' not found.
+    label chapter6Start
+                       ^
+
+File "game/script7.rpy", line 1: expected ':' not found.
+    label chapter7Start
+                       ^
+
+File "game/script7.rpy", line 21: expected statement.
+    林枫感觉自己在做梦。两个人同时和他约在同一个时间，同一个地点见面。
+                                     ^
+
+File "game/script7.rpy", line 23: expected statement.
+    林枫：“这两个人是不是约好了？算了，多一个不多，少一个不少，我都答应下来吧。”
+                                           ^
+
+File "game/script7.rpy", line 25: expected statement.
+    就这样，林枫答应了两个请求，他还不知道，一场什么样的噩梦在等待着他。
+                                      ^
+
+File "game/script7.rpy", line 27: expected statement.
+    【2016年12月17日星期六】
+                    ^
+
+File "game/script7.rpy", line 29: expected statement.
+    林枫本着不能让女生等待的原则，早早便来到了约好的地方等候，开始了自己的复习。
+                                          ^
+
+File "game/script7.rpy", line 31: expected statement.
+    白芷：真是好天气，一想到要和林枫一起学习，我的心情就好激动！
+                                  ^
+
+File "game/script7.rpy", line 33: expected statement.
+    不过，接下来所看到的一幕，让她的好心情全无。
+                          ^
+
+File "game/script7.rpy", line 35: expected statement.
+    她看到半夏正在从另一边向图书馆走过去。
+                       ^
+
+File "game/script7.rpy", line 37: expected statement.
+    白芷：怎么办？要是她看到我们俩一起学习捣乱，今天的计划可就泡汤了！
+                                     ^
+
+File "game/script7.rpy", line 39: expected statement.
+    两人一前一后，走进了图书馆。白芷跟在后面，发现她的行进路线和她完全一样。两个人就这样谁都不理谁，一起往上走。气氛很是尴尬。
+                                                                 ^
+
+File "game/script7.rpy", line 41: expected statement.
+    上到二楼，二人便都能看到在窗户边上学习的林枫。
+                           ^
+
+File "game/script7.rpy", line 43: expected statement.
+    白芷和半夏像是看到了救星一样。
+                   ^
+
+File "game/script7.rpy", line 45: expected statement.
+    半夏向林枫招了招手，便向林枫跑了过去。
+                       ^
+
+File "game/script7.rpy", line 47: expected statement.
+    白芷看到这一幕彻底慌了。自己的劳动果实要被他人无情地窃取！这她哪里忍得了！
+                                         ^
+
+File "game/script7.rpy", line 49: expected statement.
+    于是，林枫看到，两个女生在图书馆里飞奔着向他冲过来，让他也是一愣。
+                                     ^
+
+File "game/script7.rpy", line 51: expected statement.
+    首先跑到的是半夏。半夏一个箭步，冲到了林枫旁边的沙发椅上，坐了下来。
+                                      ^
+
+File "game/script7.rpy", line 53: expected statement.
+    白芷可是急坏了，她内心急得快要哭出来。
+                       ^
+
+File "game/script7.rpy", line 55: expected statement.
+    林枫：别着急，慢慢走！
+               ^
+
+File "game/script7.rpy", line 57: expected statement.
+    白芷：我知道！不用你管！她说完之后，没有注意到脚下的电源线，直接摔倒在了林枫的前面。
+                                              ^
+
+File "game/script7.rpy", line 59: expected statement.
+    半夏：我的天哪？没事吧？你怎么这么着急？
+                        ^
+
+File "game/script7.rpy", line 61: expected statement.
+    白芷从地面上爬起来：还不是因为你搞的？说着，两个人的眼神对在了一起，杀气开始在林枫的周围弥漫。
+                                                   ^
+
+File "game/script7.rpy", line 63: expected statement.
+    此时的白芷，头发散乱，坐在了林枫的另一侧。林枫看她这个样子，便用手帮她整理头发。
+                                            ^
+
+File "game/script7.rpy", line 65: expected statement.
+    林枫：你头发乱成什么样了！我帮你收拾一下。说着，他的双手便开始捋起头发。
+                                        ^
+
+File "game/script7.rpy", line 67: expected statement.
+    白芷内心激动极了。她悄悄转过头来，瞥了半夏一眼。
+                            ^
+
+File "game/script7.rpy", line 69: expected statement.
+    半夏被眼前的一幕惊呆了。她是个要强的孩子。她可不允许自己在竞争中占下风。
+                                        ^
+
+File "game/script7.rpy", line 71: expected statement.
+    半夏：林枫休息一下吧！我来帮白芷梳头发。女生梳头肯定要比男孩子好一些。
+                                       ^
+
+File "game/script7.rpy", line 73: expected statement.
+    林枫：你说得对！那交给你了！于是，半夏从林枫手中接过了白芷的头发。
+                                     ^
+
+File "game/script7.rpy", line 75: expected statement.
+    半夏把脑袋别过去，她要开心死了。白芷则是面如死灰，时不时出现短暂的面目狰狞，十分痛苦。
+                                               ^
+
+File "game/script7.rpy", line 77: expected statement.
+    白芷：不要拧我头发！是不是公报私仇！
+                      ^
+
+File "game/script7.rpy", line 79: expected statement.
+    半夏：你还想不想要头发了？不想要就老实点！
+                         ^
+
+File "game/script7.rpy", line 81: expected statement.
+    林枫没有听到两个人的对话，继续坐在那里开始学习。
+                            ^
+
+File "game/script7.rpy", line 83: expected statement.
+    头发梳理完后，白芷和半夏坐在了林枫的两侧。白芷发现，半夏的位置明显离林枫要近许多。她便挪起了凳子，靠的离林枫更近一些。
+                                                               ^
+
+File "game/script7.rpy", line 85: expected statement.
+    半夏假装在学习，实际上眼睛一直瞟着侧面。见此情景，她也把凳子挪近一些。
+                                       ^
+
+File "game/script7.rpy", line 87: expected statement.
+    半个小时之后，林枫还在学习，但是他旁边的两个凳子已经是紧挨着他，他却浑然不知。
+                                           ^
+
+File "game/script7.rpy", line 89: expected statement.
+    林枫：呵欠！他突然觉得自己好困。
+                    ^
+
+File "game/script7.rpy", line 91: expected statement.
+    林峰心想：空调的温度是不是太高了！算了，时候也不早了，先睡一觉吧！
+                                     ^
+
+File "game/script7.rpy", line 93: expected statement.
+    林枫的困意使他瘫在椅子上睡着了。
+                    ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Fri Apr  2 22:10:31 2021
+Sat May 22 10:43:47 2021

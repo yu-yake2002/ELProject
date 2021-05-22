@@ -20,26 +20,46 @@ label before_main_menu:
 label start:
     # 显示一个背景。此处默认显示占位图，但您也可以在图片目录添加一个文件
     # （命名为“bg room.png”或“bg room.jpg”）来显示。
-
-    scene bg room
-
-    # 显示角色立绘。此处使用了占位图，但您也可以在图片目录添加命名为
-    # “eileen happy.png”的文件来将其替换掉。
-
-    show eileen happy
     jump chapter1Start
-
 label chapter1End:
     jump chapter2Start
-
 label chapter2End:
     jump chapter3Start
-
 label chapter3End:
     jump chapter4Start
-
 label chapter4End:
     jump chapter5Start
-
 label chapter5End:
+    jump chapter6Start
+label chapter6End:
+    jump chapter7Start
+label chapter7End:
+    jump chapter8Start
+label chapter8End:
+    jump chapter9Start
+label chapter9End:
+    jump chapter10Start
+label chapter10End:
+    jump chapter11Start
+label chapter11End:
+    jump chapter12Start
+label chapter12End:
+    jump chapter13Start
+label chapter13End:
+    jump chapter14Start
+label chapter14End:
+    jump chapter15Start
+label chapter15End:
+    jump chapter16Start
+label chapter16End:
+    jump chapter17Start
+label chapter17End:
+    jump chapter18Start
+label chapter18End:
+    jump chapter19Start
+label chapter19End:
+    jump chapter20Start
+label chapter20End:
+    jump chapter21Start
+label chapter21End:
     return
