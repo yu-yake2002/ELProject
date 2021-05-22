@@ -1,4 +1,5 @@
 label chapter6Start:
+    scene bg qinhuai river
     "万叶，白芷和其他计金班的同学走在秦淮河沿岸，感受着凉风的吹拂。他们一起合照，玩剧本杀，好不快活。"
     "万叶在剧本杀中和白芷分到了一个阵营里面。"
     show wanye near calm
@@ -33,9 +34,9 @@ label chapter6Start:
     hide baizhi
     show wanye near upset
     m2 "完了！他这真是喝多了！"
-    "两个人回到自己的宿舍已是凌晨一点。不幸的是，万叶的酒劲现在才上来，导致他没有立刻上楼，而是在外面闲逛。"
     hide wanye
-    scene bg domitory night
+    scene bg dormitory night
+    "两个人回到自己的宿舍已是凌晨一点。不幸的是，万叶的酒劲现在才上来，导致他没有立刻上楼，而是在外面闲逛。"
     show zhongrong far serious
     m4 "万叶现在还没回来！不会出事了吧！"
     hide zhongrong

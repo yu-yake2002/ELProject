@@ -4,11 +4,17 @@ label chapter7Start:
     "林枫终于明白了转专业的痛苦。他所要复习的科目是别人复习科目的二倍。他每天泡图书馆里面，忙得焦头烂额。"
     "白芷曾经邀请过他一同学习，但是都被他拒绝了。她觉得奇怪，于是又找到了万叶。"
     scene bg xian i
+    show baizhi front bored
     f1 "我那天交待给你的事情，完成了吗？"
+    hide baizhi
+    show wanye far upset
     m2 "我……我……"
     "万叶想了又想，但确实是不知道。他醉酒的时间内失去了记忆，忘记了进入宿舍之后所发生的事情。"
     m2 "额，我肯定说了！我向你保证！"
+    hide wanye
+    show baizhi front bored
     f1 "哼，你这个废物！我要主动出击！"
+    hide baizhi
     scene bg xian ii inner
     "半夏也是这么想的。她也决定约林枫一起出去学习交流感情。"
     scene bg xian ii roof
@@ -28,12 +34,18 @@ label chapter7Start:
     "半夏正好从另一边向图书馆走过去。"
     f1 "咦，怎么是她？要是她看到我们俩一起学习捣乱，今天的计划可就泡汤了！"
     scene bg library inner
+    image baizhiFollowbanxia = HBox(
+        "images/baizhi/baizhi front calm.png",
+        "images/banxia/banxia front curious.png",
+    )
+    show baizhiFollowbanxia
     "两人一前一后，走进了图书馆。白芷跟在后面，发现她的行进路线和她完全一样。两个人就这样谁都不理谁，一起往上走。气氛很是尴尬。"
     "上到二楼，二人便都能看到在窗户边上学习的林枫。"
     "白芷和半夏像是看到了救星一样。"
     "半夏向林枫招了招手，便向林枫跑了过去。"
     "白芷看到这一幕彻底慌了。自己的劳动果实要被他人无情地窃取！这她哪里忍得了！"
     "于是，林枫看到，两个女生在图书馆里飞奔着向他冲过来，让他也是一愣。"
+    hide baizhiFollowbanxia
     "首先跑到的是半夏。半夏一个箭步，冲到了林枫旁边的沙发椅上，坐了下来。"
     "白芷可是急坏了，她内心急得快要哭出来。"
     m1 "别着急，慢慢走！"

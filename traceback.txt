@@ -1,70 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/charater/baizhi near bored.png'>:
-  File "game/script8.rpy", line 8, in script
-    f1 "你干什么？明明都是我先，你怎么总是捣乱！"
-IOError: Couldn't find file 'images/charater/baizhi near bored.png'.
+While running game code:
+  File "game/script7.rpy", line 37, in script
+    image baizhiFollowbanxia = Hbox(
+  File "game/script7.rpy", line 37, in script
+    image baizhiFollowbanxia = Hbox(
+  File "game/script7.rpy", line 37, in <module>
+    image baizhiFollowbanxia = Hbox(
+NameError: name 'Hbox' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script8.rpy", line 8, in script
-    f1 "你干什么？明明都是我先，你怎么总是捣乱！"
-  File "renpy/ast.py", line 715, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1393, in say
-    who(what, *args, **kwargs)
-  File "renpy/character.py", line 1205, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "renpy/character.py", line 871, in do_display
-    **display_args)
-  File "renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3101, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3611, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "renpy/display/core.py", line 2441, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 777, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/transform.py", line 933, in render
-    return transform_render(self, width, height, st, at)
-  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/image.py", line 501, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "renpy/display/image.py", line 307, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/layout.py", line 938, in render
-    surf = render(d, rw, height - y, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "renpy/display/im.py", line 607, in render
-    return cache.get(self, render=True)
-  File "renpy/display/im.py", line 271, in get
-    surf = image.load()
-  File "renpy/display/im.py", line 688, in load
-    raise e
-IOError: Couldn't find file 'images/charater/baizhi near bored.png'.
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 515, in main
+    renpy.game.context().run(node)
+  File "game/script7.rpy", line 37, in script
+    image baizhiFollowbanxia = Hbox(
+  File "game/script7.rpy", line 37, in script
+    image baizhiFollowbanxia = Hbox(
+  File "renpy/ast.py", line 1021, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "renpy/python.py", line 2242, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script7.rpy", line 37, in <module>
+    image baizhiFollowbanxia = Hbox(
+NameError: name 'Hbox' is not defined
 
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
 对绿色我们永远向往 0.5.0
-Sun May 23 00:24:37 2021
+Sun May 23 00:56:38 2021

@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script3.rpy", line 2: expected statement.
-    bg dormitory night
-                      ^
-
-File "game/script3.rpy", line 37: expected statement.
-    bg balcony
-              ^
-
-File "game/script5.rpy", line 52: expected 'image_name_component' not found.
-    hide
-        ^
+File "game/script7.rpy", line 37: invalid syntax
+    Hbox(baizhi front calm, banxia front curious)
+                     ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Sat May 22 23:01:52 2021
+Sun May 23 00:53:57 2021
