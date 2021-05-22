@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script1.rpy", line 89, in script
-    m1 "嗐，好想去校门口迎接她。"
-IndexError: list index out of range
+While loading <'Image' u'images/charater/baizhi near bored.png'>:
+  File "game/script8.rpy", line 8, in script
+    f1 "你干什么？明明都是我先，你怎么总是捣乱！"
+IOError: Couldn't find file 'images/charater/baizhi near bored.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script1.rpy", line 89, in script
-    m1 "嗐，好想去校门口迎接她。"
+  File "game/script8.rpy", line 8, in script
+    f1 "你干什么？明明都是我先，你怎么总是捣乱！"
   File "renpy/ast.py", line 715, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "renpy/exports.py", line 1393, in say
@@ -24,25 +24,47 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3101, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 3548, in interact_core
-    renpy.audio.audio.interact()
-  File "renpy/audio/audio.py", line 1148, in interact
-    periodic()
-  File "renpy/audio/audio.py", line 1101, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "renpy/audio/audio.py", line 1079, in periodic_thread_main
-    periodic_pass()
-  File "renpy/audio/audio.py", line 1021, in periodic_pass
-    c.periodic()
-  File "renpy/audio/audio.py", line 527, in periodic
-    want_pause = self.context.pause or global_pause
-  File "renpy/audio/audio.py", line 315, in get_context
-    mcd = renpy.game.context().music
-  File "renpy/game.py", line 246, in context
-    return contexts[index]
-IndexError: list index out of range
+  File "renpy/display/core.py", line 3611, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "renpy/display/core.py", line 2441, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 777, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 777, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 777, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/transform.py", line 933, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 116, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/image.py", line 501, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "renpy/display/image.py", line 307, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 938, in render
+    surf = render(d, rw, height - y, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "renpy/display/im.py", line 688, in load
+    raise e
+IOError: Couldn't find file 'images/charater/baizhi near bored.png'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
 对绿色我们永远向往 0.5.0
-Sat May 22 21:54:41 2021
+Sun May 23 00:24:37 2021
