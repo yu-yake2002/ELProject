@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script7.rpy", line 37: invalid syntax
-    Hbox(baizhi front calm, banxia front curious)
-                     ^
+File "game/script13.rpy", line 44: expected statement.
+    val1 += 5
+         ^
+
+File "game/script13.rpy", line 47: expected statement.
+    val1 +=10
+         ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Sun May 23 00:53:57 2021
+Sun May 23 18:26:31 2021

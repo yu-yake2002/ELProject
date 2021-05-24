@@ -8,8 +8,10 @@ define f2 = Character("半夏") #半夏 云南双柏2016级法学 自卑 认为�
 define m2 = Character("万叶") #万叶 有钱 15 计金 衡水复读
 define m3 = Character("江波") #江波 JB 计拔 纸上谈兵的情感专家
 define m4 = Character("钟嵘") #钟嵘 搞笑 见到白芷之后就不会搞笑了
+define f3 = Character("明祺")
 
-$ choice = [-1, -1, -1]
+$ val1 = 0
+$ val2 = 0
 
 label before_main_menu:
     $ renpy.movie_cutscene("../video/startMovie.mpg")
