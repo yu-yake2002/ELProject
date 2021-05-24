@@ -2,13 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script13.rpy", line 44: expected statement.
-    val1 += 5
-         ^
-
-File "game/script13.rpy", line 47: expected statement.
-    val1 +=10
-         ^
+File "game/script16.rpy", line 49: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Sun May 23 18:26:31 2021
+Mon May 24 17:19:40 2021
