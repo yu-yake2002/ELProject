@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script16.rpy", line 60: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show banxia near happy
-    ^
+File "game/script13.rpy", line 9: is not terminated with a newline. (Check strings and parenthesis.)
+        image baizhi gradient = AlphaMask("images/other/gradient.jpg", Image("images/baizhi/baizhi far happy.png")
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Tue May 25 16:56:22 2021
+Tue May 25 21:31:58 2021

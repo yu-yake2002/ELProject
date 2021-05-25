@@ -1,5 +1,6 @@
 label chapter2Start:
-    scene bg iflow
+    scene bg experiment building
+    with dissolve
     "此时太阳已经高挂，炽热的阳光打在地上，让远处的视野扭曲起来。沥青路面散发着刺鼻的气味，每一个南大的行人都尽可能缓慢地走着，尽可能让自己少受到烈日的影响，这也让在人群中奔跑的白芷变得格外显眼。"
     show baizhi far angry
     "白芷一边走着，一边回忆起刚才半夏的笑脸。"
@@ -45,17 +46,21 @@ label chapter2Start:
     
     scene bg dormitory day
     "我终于完成了自己的迎新任务，简要地向半夏介绍了南大的建筑物之后便回到了宿舍休息，因为天气实在是太热了。"
+    image jiangboAndzhongrong = HBox(
+        "images/jiangbo/jiangbo far bright.png",
+        "images/zhongrong/zhongrong far bright.png",
+    )
+    show jiangboAndzhongrong
     m3 "怎么样，看到半夏了吗？长得怎么样？"
     m4 "没有拍照吗？有的话快发到群里然我们这些爸爸看一看，先过了我们这关！"
     m1 "额，照片倒是没有留下，不过妹妹长得确实挺可爱的，就是。。。"
     m4 "就是什么？"
     m1 "她笑起来太可爱了，我在路上都没看看她几眼。"
     "江波&钟嵘" "诶呀！李在赣什么？"
-    
     scene bg classroom
     "在这之后，我也时不时解决半夏在学习上遇到的问题，但由于学业过于繁忙，我和她并没有太多面对面的机会。"
     "到了选课的最后几天，我又开始整日纠结，睡不着觉——就像报志愿时的我一样。"
-
+    scene bg hasanzhong
     "2015年7月"
     "夏日的风从窗户吹进来，席卷着热浪打在林枫的脸上。即使是祖国东北部的绥化市，这时的天气也是非常热了。"
     "林枫母亲" "孩子，听妈一句劝，报个计算机或者软件工程吧！未来收益高，有光明的未来！你看看，上一届的那个谁，不就是报的软件工程吗？现在他家长在别人脸上都有光，说自己家孩子已经能给父母分忧了！"

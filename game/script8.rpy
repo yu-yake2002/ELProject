@@ -14,7 +14,7 @@ label chapter8Start:
     f2 "走着瞧！"
     hide banxiaVSbaizhi1
     image banxiaVSbaizhi2 = HBox(
-        "images/banxia/banxia front curious.png",
+        "images/banxia/banxia front evil.png",
         "images/baizhi/baizhi near evil.png",
     )
     "随后两人便径直走出了图书馆，只留下林枫一个人。"

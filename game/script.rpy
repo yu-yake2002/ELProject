@@ -67,8 +67,22 @@ label chapter18End:
 label endBranch:
     jump chapter19Start
 label chapter19End:
-    jump chapter20Start
+    if val1 >= 35:
+        jump chapter20Start
+    if val2 >= 30:
+        jump chapter22Start
+    else:
+        jump chapter24Start
+
 label chapter20End:
     jump chapter21Start
 label chapter21End:
+    return
+
+label chapter22End:
+    jump chapter21Start
+label chapter23End:
+    return
+
+label chapter24End:
     return

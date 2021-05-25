@@ -1,12 +1,13 @@
 label chapter13Start:
-    scene bg bluesky
+    scene bg bedroom
     "2017年1月10日 晴转多云"
     "白芷焦急地在林枫的家门口等待。已经是上午十一点了，可是她等的人还没起床呢。"
     f1 "快点起床！一会来不及了！林枫！ 打电话没有得到回应的她干脆直接对着楼上喊了起来。"
-    scene bg hasanzhong
+    scene bg hasanzhong dark
     "我做了一个奇怪的梦，梦见自己在学校睡着了，起来之后学校灯光全灭，空无一人。"
     m1 "我是在做梦吧？也不对，我确实说今天要去一中的！或许我没有做梦？"
-    show baizhi black
+    image baizhi gradient = AlphaMask("images/other/gradient.jpg", Image("images/baizhi/baizhi far happy.png", align=(0.5, 0.5)))
+    show baizhi gradient
     "白芷（？）" "林枫，你在吗？我来找你喽！"
     m1 "是白芷吗？我现在在哪里？"
     "白芷（？）" "你在学校啊！告诉你个好消息，现在学校只剩下我们两个人了哦！"
@@ -15,17 +16,18 @@ label chapter13Start:
     "然后便是一阵缓慢的开门声……灯突然亮了起来，白芷披头散发，拿着一把刀，死死地盯着我！"
     m1 "你，你干什么？你不是白芷，你是谁？"
     "白芷（？）" "不要动哦？我只想切掉一块肉，不会太疼的~"
-    scene bg hasanzhong
+    scene bg hasanzhong dark
     m1 "不动是啥B！跑啊！随后两人便开始在教学楼里面周旋。林枫始终没有被抓到，但是后面的声音却是始终没有停止。"
     scene bg black
     "一个翻身，我直接从教学楼的窗户上跳了下去。"
-    scene bg bluesky
+    scene bg bedroom
     "我再次醒来时，自己和被子已经在地板上乱成一团。要是说还有什么别的，那就是白芷在楼下的喊声。"
     f1 "三点几啦！饮茶先啦！你识不识！"
     m1 "你急什么？这才几点啊？林枫一边说着，一边拿起了旁边的手机。"
     show phone clock
     "卧槽，已经十一点多了！这可怎么办！我和老师约的是上午！"
     hide phone
+    scene bg hall1
     "顾不得想那么多了！我穿好衣服，飞快地从楼上跑了下去。一年半的早八以及早十的迟到经验让他深谙狡辩之道。还没走到楼下，他便已经知道自己该如何狡辩了。"
     m1 "白芷，老师那边说什么没有？"
     show baizhi far happy

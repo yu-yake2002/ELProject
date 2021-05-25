@@ -1,5 +1,9 @@
 label chapter19Start:
+    scene bg black
+    with dissolve
+    pause 2.0
     scene bg dormitory day
+    with dissolve
     "2017年3月"
     "我拖着行李，再次回到了南大。与之前不同的是，我即将成为一个环境学院的学生了——我以优异的成绩完成了全部准入课程。"
     "一回到宿舍，所有人都对着我笑。"
