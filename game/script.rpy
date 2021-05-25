@@ -10,8 +10,8 @@ define m3 = Character("江波") #江波 JB 计拔 纸上谈兵的情感专家
 define m4 = Character("钟嵘") #钟嵘 搞笑 见到白芷之后就不会搞笑了
 define f3 = Character("明祺")
 
-$ val1 = 0
-$ val2 = 0
+default val1 = 0
+default val2 = 0
 
 label before_main_menu:
     $ renpy.movie_cutscene("../video/startMovie.mpg")

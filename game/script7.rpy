@@ -4,7 +4,7 @@ label chapter7Start:
     "林枫终于明白了转专业的痛苦。他所要复习的科目是别人复习科目的二倍。他每天泡图书馆里面，忙得焦头烂额。"
     "白芷曾经邀请过他一同学习，但是都被他拒绝了。她觉得奇怪，于是又找到了万叶。"
     scene bg xian i
-    show baizhi front bored
+    show baizhi near sad
     f1 "我那天交待给你的事情，完成了吗？"
     hide baizhi
     show wanye far upset
@@ -12,7 +12,7 @@ label chapter7Start:
     "万叶想了又想，但确实是不知道。他醉酒的时间内失去了记忆，忘记了进入宿舍之后所发生的事情。"
     m2 "额，我肯定说了！我向你保证！"
     hide wanye
-    show baizhi front bored
+    show baizhi near angry
     f1 "哼，你这个废物！我要主动出击！"
     hide baizhi
     scene bg xian ii inner
@@ -35,7 +35,7 @@ label chapter7Start:
     f1 "咦，怎么是她？要是她看到我们俩一起学习捣乱，今天的计划可就泡汤了！"
     scene bg library inner
     image baizhiFollowbanxia = HBox(
-        "images/baizhi/baizhi front calm.png",
+        "images/baizhi/baizhi near calm.png",
         "images/banxia/banxia front curious.png",
     )
     show baizhiFollowbanxia
@@ -49,19 +49,20 @@ label chapter7Start:
     "首先跑到的是半夏。半夏一个箭步，冲到了林枫旁边的沙发椅上，坐了下来。"
     "白芷可是急坏了，她内心急得快要哭出来。"
     m1 "别着急，慢慢走！"
-    show baizhi run shout
+    show baizhi near cry
     f1 "我知道！不用你管！她说完之后，没有注意到脚下的电源线，直接摔倒在了林枫的前面。"
     hide baizhi
     show banxia jk evil
     f2 "我的天哪？学姐你没事吧？你怎么这么着急？"
     hide banxia
-    show baizhi front embarrassed
+    show baizhi near embarrassed
     f1 "哼，还不是因为你搞的？"
     hide baizhi
     "两个人的眼神对在了一起，杀气开始在我的周围弥漫。"
-    show baizhi front embarrassed
+    show baizhi near embarrassed
     "此时的白芷，头发散乱，坐在了我的另一侧。我看她这个样子，便用手帮她整理头发。"
     m1 "你头发乱成什么样了！我帮你收拾一下。说着，他的双手便开始捋起头发。"
+    show baizhi near happy
     "白芷激动极了。她悄悄转过头来，瞥了半夏一眼。"
     hide baizhi
     show banxia jk bored
@@ -71,7 +72,7 @@ label chapter7Start:
     show banxia jk bright
     "于是，半夏从林枫手中接过了白芷的头发。半夏把脑袋别过去，她要开心死了。白芷则是面如死灰，时不时出现短暂的面目狰狞，十分痛苦。"
     hide banxia
-    show baizhi front bored
+    show baizhi far angry
     f1 "不要拧我头发！是不是公报私仇！"
     hide baizhi
     show banxia jk bright

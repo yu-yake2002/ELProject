@@ -25,9 +25,10 @@ label chapter13Start:
     m1 "你急什么？这才几点啊？林枫一边说着，一边拿起了旁边的手机。"
     show phone clock
     "卧槽，已经十一点多了！这可怎么办！我和老师约的是上午！"
+    hide phone
     "顾不得想那么多了！我穿好衣服，飞快地从楼上跑了下去。一年半的早八以及早十的迟到经验让他深谙狡辩之道。还没走到楼下，他便已经知道自己该如何狡辩了。"
     m1 "白芷，老师那边说什么没有？"
-    show baizhi front calm
+    show baizhi far happy
     f1 "不用担心！学生今天上午临时加了一场考试，想通知你一声却怎么都没有回应，于是老师就让我来通知你啦！"
     m1 "啊啊，原来如此，真是吓死我了。"
     f1 "都这个点了，你还没吃饭吧！先去吃个饭！"
@@ -35,9 +36,10 @@ label chapter13Start:
     "白芷的手软软的。虽然感觉很舒服，不过我还是感觉有一种不祥的预感。"
     "我们走在人来人往的街上。四下看去，幸好没有认识的人。"
     "这时，来自后方的喊声，让我听着心头一紧。"
+    hide baizhi
     image mingqiVSbaizhi = HBox(
         "images/mingqi/mingqi lateral calm.png",
-        "images/baizhi/baizhi lateral calm.png",
+        "images/baizhi/baizhi near calm.png",
     )
     show mingqiVSbaizhi
     f3 "诶呦呦，这不林枫吗，几天没见，这么拉了！"
@@ -54,7 +56,7 @@ label chapter13Start:
     f1 "差不多得了！咱们一会还要去宣讲呢！没时间吃饭了！"
     "明祺的眼神暗淡下来。这让林枫很不舒服。三个人简要地聊了天之后都分别了。"
     hide mingqiVSbaizhi
-    show baizhi lateral calm
+    show baizhi near calm
     f1 "你认识的小姑娘还挺多啊，真有女人缘。明祺和你是什么关系啊？"
     "林枫看着白芷人畜无害的眼神。不过他自从被掐之后就知道，这个回答对他之后的生命安危，确实是挺关键的。"
     menu:
@@ -64,9 +66,9 @@ label chapter13Start:
         "都是因为我太受欢迎了":
             m1 "都是高中同学罢了，像我这样的人，到哪里不会受欢迎呢？要是不受欢迎的话，我也不会受邀参加南星活动吧。"
             $ val1 += 10
-    show baizhi lateral happy
+    show baizhi near happy
     f1 "没想到你还挺会说话的。那咱们先吃个饭吧。"
     m1 "你刚才不是说不吃饭了吗？"
-    show baizhi lateral calm
+    show baizhi near angry
     f1 "你这个榆木脑袋！亏我刚才还夸你聪明!"
     jump chapter13End

@@ -11,7 +11,7 @@ label chapter12Start:
     m1 "不对啊？不是你说要领我来这边进行招生宣讲的吗？那我们手里还有这么多物资怎么处理呢？"
     f1 "我是这样想的。你不是一中的学生吗？咱们就在一中做活动吧，把这些材料都给一中的同学。"
     m1 "那三中怎么办？"
-    show baizhi near bored
+    show baizhi near cry
     f1 "三中根本没人能考上南大。每年三中的最高分不过600出头。想让三中出个好苗子，很蓝的啦！"
     m1 "？？？那你不是南大的学生吗？"
     f1 "要不是我在衡水借读，在三中我也考不上的。"
@@ -31,11 +31,11 @@ label chapter12Start:
         "是你想看戏吧":
             m1 "我看，是你想看戏吧！我可不和你演。"
             $ val1 += 2
-            show baizhi near bored
+            show baizhi near angry
             f1 "胡说？我不还是为了招生？你怎么这样凭空污人清白？就这么定了！我就是问问你的意见，你说的不算！"
         "怎么可能？":
             m1 "没门！李在赣神魔？"
-            show baizhi near bored
+            show baizhi near angry
             $ val1 += 0
             f1 "哼，你不会以为我在征求你的意见吧，我只是告诉你一声罢了！"
     m1 "额，那好吧，都听你的。"
@@ -43,7 +43,7 @@ label chapter12Start:
     with dissolve
     "下飞机后，两人在机场走过一段路程，取过行李后，白芷和林枫都看到了来接自己的亲人。"
     m1 "今天很开心，那就先聊到这里吧！咱们家长来了，改日再见！"
-    show baizhi front calm
+    show baizhi near calm
     f1 "嗯！"
     hide baizhi
 
@@ -58,10 +58,10 @@ label chapter12Start:
     menu:
         "你疯了吧？":
             m1 "你是不是疯了？绝对不能这么干！我不同意，会在全校同学面前社死的！"
-            $ val += 2
+            $ val1 += 2
         "有点太张扬了。":
             m1 "啊这，要不咱们别这么张扬，宣传的话还是低调一些好一点，免得其它竞争学校误会"
-            $ val += 5
+            $ val1 += 5
     f1 "你说的好像有点道理。确实是我写得有点过了。不过后天我们就要去宣讲了，你总不能不去吧？"
     menu:
         "你又不是一中的学生":
@@ -70,7 +70,7 @@ label chapter12Start:
         "这个剧本太离谱了":
             m1 "这可难办了。但是我还是要说，这个文档写得有点太过了！作为一个牡丹的我根本不能接受！咱们得收敛一点！"
             $ val1 += 5
-    show baizhi front angry
+    show baizhi near angry
     f1 "不去？怎么可能？我总不能当队长什么事情都不干吧？"
     f1 "那好吧，你说了算，那你把咱们的行动纲领修改一下！散会！"
     hide phone
