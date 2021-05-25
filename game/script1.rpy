@@ -96,7 +96,7 @@ label chapter1Start:
     hide banxia
     "校园卡、学生手册、纪念品，检查录取通知书。。。"
     m1 "好啦，我们走吧！"
-    show baizhi lateral calm
+    show baizhi far serious
     "刚要走，却在路口看到了急匆匆赶到这里的白芷。"
     "白芷，2015级计算机与金融工程实验班学生。"
     "她和我自幼相识，但……我们一直是那种普通的朋友关系，只是普通朋友。来到南大之后，白芷不明白的问题，都是我来帮忙。"
@@ -109,7 +109,7 @@ label chapter1Start:
     "半夏笑起来是那么的无害，让人忍不住散发出同样的笑容。"
     hide banxia
     "但是，白芷的脸色怎么这么难看啊……"
-    show baizhi near shocked
+    show baizhi far angry
     f1 "学妹你好！林枫，我去忙我的了啊！"
     m1 "嗯嗯。辛苦啦！"
     "白芷快步朝着来时的方向走去"

@@ -53,14 +53,14 @@ label chapter5Start:
     show zhongrong far bright
     m4 "对了，你还没说！你和林枫现在关系发展到哪一步了？"
     hide zhongrong
-    show banxia far bored
+    show banxia near shocked
     f2 "什么，你说什么？我和林枫还不是那种关系。。。只是普通朋友，真的。"
     "说完这些，半夏的脸红透了，恨不得找个地缝钻进去。"
     hide banxia
     show zhongrong far bright
     m4 "哈哈，我就是开个玩笑，你那么认真干嘛？"
     hide zhongrong
-    show banxia far bored
+    show banxia near shocked
     f2 "学长不要再开这种玩笑啦！"
     hide banxia
     show zhongrong far calm

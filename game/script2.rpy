@@ -1,7 +1,7 @@
 label chapter2Start:
     scene bg iflow
     "此时太阳已经高挂，炽热的阳光打在地上，让远处的视野扭曲起来。沥青路面散发着刺鼻的气味，每一个南大的行人都尽可能缓慢地走着，尽可能让自己少受到烈日的影响，这也让在人群中奔跑的白芷变得格外显眼。"
-    show baizhi front angry
+    show baizhi far angry
     "白芷一边走着，一边回忆起刚才半夏的笑脸。"
     f1 "呜呜呜……啊啊啊啊！"
     "白芷干脆喊出了声，为了缓解尴尬，她径直朝食堂跑去。"
@@ -14,7 +14,7 @@ label chapter2Start:
     show wanye far calm
     m2 "怎么啦？好像心事重重的。"
     hide wanye
-    show baizhi front angry
+    show baizhi far serious
     f1 "没什么！嗯……我问你个事啊，你一定要把你知道的告诉我！你认识半夏吗？什么来头？"
     hide baizhi
     show wanye near bored
@@ -22,23 +22,23 @@ label chapter2Start:
     "万叶一下懵住了，他突然想不起关于半夏的消息。"
     m2 "对不起，我真没想起来。她怎么了？"
     hide wanye
-    show baizhi near angry
+    show baizhi near sad
     f1 "她和林枫走的很近诶，他们是不是谈恋爱了？"
     hide baizhi
     show wanye near bored
     m2 "我真不知道啊？再说了，他谈恋爱，你怎么那么激动呢？"
     hide wanye
-    show baizhi near angry
+    show baizhi near sad
     f1 "什么？我，我激动了吗？我只是好奇？自从上了大学之后，我身边的八卦越来越少了！就是这样！没有其他的个人情感在里面。"
     hide baizhi
     show wanye near bored
     m2 "那好吧。平常和林枫关系好的女孩那么多，我哪知道是哪一个。"
     hide wanye
-    show baizhi near angry
+    show baizhi near sad
     f1 "？？？你说啥？"
     hide baizhi
     "为了不让自己形象尽失，她便也不再追问了。她吃了两口饭，随后便和万叶打了一声招呼离开了。"
-    show wanye upset
+    show wanye near upset
     m2 "你餐盘还没拿，别走！"
     "万叶只能拿着两个餐盘送到了餐盘回收处。"
     hide wanye

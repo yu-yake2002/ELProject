@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script16.rpy", line 49: indentation mismatch.
+File "game/script16.rpy", line 60: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    show banxia near happy
+    ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Tue May 25 16:31:27 2021
+Tue May 25 16:56:22 2021

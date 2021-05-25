@@ -4,31 +4,31 @@ label chapter4Start:
     show wanye far upset
     m2 "你知道吗？林枫想转到环境学院去！他昨晚喝多了跟我们说的！"
     hide wanye
-    show baizhi front angry
+    show baizhi near sad
     f1 "这我早就猜出来了。他在高中的时候，作文中总是批判现在的生态环境。我光是听他写的范文就不知道有多少次了！"
     hide baizhi
     show wanye far upset
     m2 "你怎么看？我觉得他这样挺悬的。别到时候环院进不去还耽误了软件工程的课。"
     hide wanye
-    show baizhi front angry
+    show baizhi near sad
     f1 "这个。。人各有志嘛。我支持他！他做什么我都支持！阿，阿嚏！"
     hide baizhi
     show wanye far upset
     m2 "你是不是感冒了？没事吧？"
     hide wanye
-    show baizhi front angry
+    show baizhi near angry
     f1 "没，没事！我就是昨天在阳台上呆的时间长了！就是这样！"
     hide baizhi
     show wanye far upset
     m2 "是不是在一边赏月一边想某个人啊？"
     hide wanye
-    show baizhi front angry
+    show baizhi near angry
     f1 "绝，绝对没有！你怎么能这样凭空污人清白！"
     hide baizhi
     show wanye far upset
     m2 "好吧，我也不多问了。不过喜欢某个人一直藏着绝对是不可能成功的。"
     hide wanye
-    show baizhi front angry
+    show baizhi near angry
     f1 "哼，我知道！不用你管！"
     hide baizhi
     "万叶笑着离开了食堂。"
