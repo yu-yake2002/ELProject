@@ -1,4 +1,5 @@
 label chapter16Start:
+    play music "../audio/chapter16.mp3"
     scene bg kunming station
     "尊敬的旅客，感谢您乘坐本次列车。本次列车到达终点站昆明站。"
     scene bg kunming scenary
@@ -76,4 +77,5 @@ label nxt16:
     f2 "诶嘿！"
     f2 "诶嘿是什么意思啊！"
     hide banxia
+    stop music fadeout 1.0
     jump chapter16End

@@ -1,4 +1,5 @@
 label chapter2Start:
+    play music "../audio/chapter2.mp3"
     scene bg experiment building
     with dissolve
     "此时太阳已经高挂，炽热的阳光打在地上，让远处的视野扭曲起来。沥青路面散发着刺鼻的气味，每一个南大的行人都尽可能缓慢地走着，尽可能让自己少受到烈日的影响，这也让在人群中奔跑的白芷变得格外显眼。"
@@ -50,6 +51,7 @@ label chapter2Start:
         "images/jiangbo/jiangbo far bright.png",
         "images/zhongrong/zhongrong far bright.png",
     )
+    stop music fadeout 1.0
     show jiangboAndzhongrong
     m3 "怎么样，看到半夏了吗？长得怎么样？"
     m4 "没有拍照吗？有的话快发到群里然我们这些爸爸看一看，先过了我们这关！"

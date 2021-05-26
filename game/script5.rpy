@@ -1,4 +1,5 @@
 label chapter5Start:
+    play music "../audio/chapter5.mp3"
     scene bg erxian bridge
     "2016年11月"
     "半夏走在二仙桥上。所谓的二仙桥，就是连接仙I、仙II两座教学楼的桥。"
@@ -75,4 +76,5 @@ label chapter5Start:
     "2016年12月"
     "2016年12月4日，天意外地不是很冷。为了缓解大家的备考压力，计金班决定带领15级计金全体成员去夜游秦淮河。万叶和白芷都应邀前往。"
     "万叶和钟嵘，林枫，江波打了一声招呼，说自己要很晚才能回来，便急匆匆地离开了。而此时，这三个人还不知道万叶的暂别对他们来说究竟意味着什么。"
+    stop music fadeout 1.0
     jump chapter5End

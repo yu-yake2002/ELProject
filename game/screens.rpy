@@ -346,16 +346,16 @@ screen main_menu():
 
     ## 此语句可确保替换掉任何其他菜单界面。
     tag menu
-
+    
     add gui.main_menu_background
-
+    add "gui/logo.png" xalign 1.0 yalign 1.0 zoom 0.5 alpha 0.8
     ## 此空框可使标题菜单变暗。
     frame:
         style "main_menu_frame"
 
     ## “use”语句将其他的界面包含进此界面。标题界面的实际内容在导航界面中。
     use navigation
-
+    
     if gui.show_name:
 
         vbox:

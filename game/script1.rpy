@@ -1,4 +1,5 @@
 label chapter1Start:
+    play music "../audio/chapter1.mp3"
     scene bg xianlin campus
     "2016年9月"
     "又是一年九月，大二的我又一次站在了南京大学仙林校区的门口。"
@@ -19,6 +20,7 @@ label chapter1Start:
     "我抱着试一试的心态，扫描了二维码，参与了活动。本来这个活动是男对男，女对女的，但是……"
     "我设置错了性别，所以阴差阳错地遇到了一个女孩子。"
     "经历了简单的信件交流后，我们便开始在社交软件上聊了起来。"
+    play sound "../audio/message.mp3"
     show phone wechat
     m1 "“你好啊！还有两个月就要高考了，千万不要紧张！学习上有什么不懂的地方尽管问我！”"
     f2 "“你好啊！^_^我今天收到了你的信，小哥哥写字写得真好看！”"
@@ -32,6 +34,7 @@ label chapter1Start:
     hide wanye
     m1 "说什么呢？学妹，学妹的事，能算有意思吗？"
     "接下来便是难懂的话，什么“不小心选错了” “女人只会影响我击剑的速度”一类的话，5A641充满了快活的空气。"
+    play sound "../audio/message.mp3"
     show phone wechat
     f2 "“小哥哥你知道吗，自从上次你对我鼓励之后，我的成绩从630分提升到了650分呢，再提高十几分，我就摸到了南大去年的分数线了！”"
     m1 "诶呀，但是还有一个月了，再提升20分真的可能吗？"
@@ -54,6 +57,7 @@ label chapter1Start:
 
     scene bg dormitory night
     "2016年6月23日晚"
+    play sound "../audio/message.mp3"
     show phone wechat
     f2 "“怎么办怎么办，要出分了，我现在的手在抖，根本看不下去！”"
     m1 "“别急别急！要不我帮你查看成绩吧！”"
@@ -66,6 +70,7 @@ label chapter1Start:
     m1 "也是，这才八点，离正式出分还早着呢！先玩一会！就一会！"
     hide zhongrong
     "时钟转过了四分之一圈，我们又以和之前一样的姿势蹲坐在电脑前。时不时响起的键盘声是他们在不断查分的最好证明。"
+    play sound "../audio/phoneCall.mp3"
     show phone wechat
     "（叮铃铃）"
     m1 "半夏打电话过来了！现在还没出分，我怎么回复她！"
@@ -96,6 +101,7 @@ label chapter1Start:
     hide banxia
     "校园卡、学生手册、纪念品，检查录取通知书。。。"
     m1 "好啦，我们走吧！"
+    stop music fadeout 1.0
     show baizhi far serious
     "刚要走，却在路口看到了急匆匆赶到这里的白芷。"
     "白芷，2015级计算机与金融工程实验班学生。"

@@ -1,22 +1,42 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script18.rpy", line 2, in script
-    "南大的学生，绝大多数人的高中是省级重点中学，其中不乏国内数一数二名校的大佬。但是，我今天要讲的这所中学，它管理严格规范，效仿其他地区的先进经验，但是一本上线率却只有6.27%。远低于其它重点中学的水平。"
-ValueError: unsupported format character '?' (0x3002) at index 87
+  File "renpy/common/00start.rpy", line 213, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 498, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 498, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 508, in _execute_python_hide
+    renpy.load("_reload-2")
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script18.rpy", line 2, in script
-    "南大的学生，绝大多数人的高中是省级重点中学，其中不乏国内数一数二名校的大佬。但是，我今天要讲的这所中学，它管理严格规范，效仿其他地区的先进经验，但是一本上线率却只有6.27%。远低于其它重点中学的水平。"
-  File "renpy/ast.py", line 715, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "renpy/exports.py", line 1382, in say
-    what = what % tag_quoting_dict
-ValueError: unsupported format character '?' (0x3002) at index 87
+  File "renpy/common/00start.rpy", line 213, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 498, in script
+    python hide:
+  File "renpy/ast.py", line 922, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2218, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 498, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 508, in _execute_python_hide
+    renpy.load("_reload-2")
+  File "renpy/loadsave.py", line 767, in load
+    log.unfreeze(roots, label="_after_load")
+  File "renpy/python.py", line 2173, in unfreeze
+    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
+  File "renpy/python.py", line 2005, in rollback
+    self.load_failed()
+  File "renpy/python.py", line 1923, in load_failed
+    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
-关于我转专业变成环院学生这件事 0.5.0
-Wed May 26 00:49:16 2021
+关于我转专业变成环院学生这件事 1.0.0
+Thu May 27 01:18:05 2021

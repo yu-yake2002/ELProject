@@ -1,4 +1,5 @@
 label chapter14Start:
+    play music "../audio/chapter14-1.mp3"
     scene bg hasanzhong
     "终于熬到了进校宣讲的时间。作者也终于熬到了要把这条分线完结的时间。"
     "结束了，但是没有完全结束，后面还有合并的剧情。如果您能玩到这里，请联系作者。作者团队会给你发红包的。（卑微）"
@@ -34,6 +35,8 @@ label chapter14Start:
     "我和白芷两个人携手，为一中的每一个人献上了一场盛宴。"
     "作者注：在这里还是要宣传一下南星梦想计划。来到南大，我发现这里是一个包罗万象，兼收并蓄的高等学府。如果能够更好地把南大宣传到祖国各地，对南大无疑是一件好事。"
     "我本人私下里为我2018年才了解到南京大学这个学校而道歉。"
+    stop music fadeout 1.0
+    play music "../audio/chapter14-2.mp3"
     scene bg scenery night
     "2017年2月11日 元宵佳节"
     "这一天，白芷又约林枫出去玩了。不过我知道临出门才想起来自己还有个课程论文的ddl今天截止，自己还没有开始动笔。"
@@ -62,4 +65,5 @@ label chapter14Start:
         "说自己还有论文要写，先回家了。":
             $ val1 += 0
             m1 "我先走了，还有论文要忙。"
+    stop music fadeout 1.0
     jump chapter14End

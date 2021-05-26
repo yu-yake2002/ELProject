@@ -1,5 +1,6 @@
 label chapter21Start:
-    $ renpy.movie_cutscene("../video/NeverGonnaGiveYouUp.mp4", delay=None, loops=0, stop_music=False)
+    #play music "../audio/Dans la maison.mp3"
+    $ renpy.movie_cutscene("../video/test02.mpg")
     "刚刚都是骗人的，怎么可能是双人间呢，你个lsp！"
     "不过有一件事是真的："
 label chapter21Mid:

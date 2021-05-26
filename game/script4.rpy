@@ -1,4 +1,5 @@
 label chapter4Start:
+    play music "../audio/chapter4.mp3"
     scene bg canteen
     "第二天，万叶和白芷又在食堂相遇。"
     show wanye far upset
@@ -59,4 +60,5 @@ label chapter4Start:
     "后来我们聊了很多，还好，她再没有提到转专业的事情。"
     "然而，她还是不支持我转专业的吧。"
     "过了一段时间，每个人都在为期中考试备战，互相交流的时间变少了。直到一次偶然的机会，让林枫和半夏之间多了一根线。"
+    stop music fadeout 1.0
     jump chapter4End

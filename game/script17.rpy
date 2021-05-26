@@ -1,4 +1,5 @@
 label chapter17Start:
+    play music "../audio/chapter17.mp3"
     scene bg village
     "我和半夏，两个人开始在双柏县穿梭。两个人从汽车客运站出发，一路向北。"
     "一路上，我都没有说话。我在丈量着双柏的每一寸土地。在这里，我看到了自己的城市十几年前的影子。那个留存于记忆中的城市，小而温暖，自己和朋友外出游玩的时候不会感觉到任何的劳累。"
@@ -54,4 +55,5 @@ label chapter17Start:
             "半夏比我要成熟的多，可她毕竟是个女孩。在自己喜欢的人面前，仍然会展露自己真实的一面。"
             scene black
             "夜深了，我们回到家中。我进了自己的屋子，拉开窗帘，在萤火虫的陪伴中入眠。"
+    stop music fadeout 1.0
     jump chapter17End

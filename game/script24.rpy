@@ -1,4 +1,5 @@
 label chapter24Start:
+    play music "../audio/chapter24.mp3"
     scene bg school of environment center
     "大学时光已经过了两年。林枫的学习遇到了一些瓶颈。他的实验结果远没有他预料之中的成功。他决定找与自己曾经有过交集的半夏和白芷聊聊天。"
     show baizhi near sad
@@ -38,4 +39,5 @@ label chapter24Start:
     "两人很快便相知，相识，相爱了。他叫林枫。她叫格蕾塔·通贝里。"
     "这一路上，我遭受了许多的非议，但是我知道，为了自己的环保，为了自己的毕生事业，我不后悔。"
     "环保少女照亮现实，end"
+    stop music fadeout 1.0
     jump chapter24End

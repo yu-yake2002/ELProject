@@ -1,7 +1,9 @@
 label chapter11Start:
+    play music "../audio/chapter11.mp3"
     "我答应了白芷，和她一起回到了绥化，同时以“以后再说”打发了半夏。"
     scene bg airport
     "我和白芷买好了机票。不过我察觉到事情的不对劲，于是便提前来到机场值机。"
+    play sound "../audio/message.mp3"
     show phone wechat
     m1 "我已经值机完了。"
     f1 "你的座位号是多少？我想和你坐在一起。"
@@ -61,6 +63,7 @@ label chapter11Start:
     hide baizhi
     "从南京到绥化的飞机只有三个小时，但我感觉好像过了三个世纪一般。"
     m1 "啊~好困……"
+    stop music fadeout 1.0
     scene bg black
     with dissolve
     jump chapter11End

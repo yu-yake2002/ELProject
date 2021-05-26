@@ -16,12 +16,12 @@ define config.name = _("关于我转专业变成环院学生这件事")
 
 ## 决定上面给出的标题是否显示在标题界面屏幕。设置为 False 来隐藏标题。
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## 游戏版本号。
 
-define config.version = "0.5.0"
+define config.version = "1.0.0"
 
 
 ## 放置在游戏“关于”屏幕的文本。将文本放在三个引号之间，并在段落之间留一个空行。

@@ -1,4 +1,5 @@
 label chapter12Start:
+    play music "../audio/chapter12.mp3"
     scene bg blue sky
     with dissolve
     "在半梦半醒之中，我看到了家乡的天空。天空万里无云，太阳也被拉的很远，但是却十分晃眼睛。"
@@ -48,6 +49,7 @@ label chapter12Start:
     hide baizhi
 
     "一中还有一周的时间就放假了，所以两个人必须尽快做好准备。为了不耽误事，两个人在微信上又聊了起来。"
+    play sound "../audio/message.mp3"
     show phone wechat
     f1 "林枫，我跟你说，我想好了，咱们到时候进学校就拿我的剧本。白芷说着传过一个word文档。"
     m1 "这是什么？让我看看？什么？对绿色我们永远向往？这不是这个galgame的废弃名吗？用它干嘛？"
@@ -74,4 +76,5 @@ label chapter12Start:
     f1 "那好吧，你说了算，那你把咱们的行动纲领修改一下！散会！"
     hide phone
     m1 "两个人微信聊天算什么散会啊？真是奇怪的人！"
+    stop music fadeout 1.0
     jump chapter12End
