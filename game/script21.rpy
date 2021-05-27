@@ -1,11 +1,11 @@
 label chapter21Start:
-    #play music "../audio/Dans la maison.mp3"
     $ renpy.movie_cutscene("../video/test02.mpg")
     "刚刚都是骗人的，怎么可能是双人间呢，你个lsp！"
     "不过有一件事是真的："
 label chapter21Mid:
     scene bg black
     with dissolve
+    play music "../audio/chapter21.mp3"
     "在那个晚上，白芷翻来覆去地睡不着。那个自己日思夜想的男孩子，就在一墙之隔。"
     f1 "钟表的滴答声将时间切成碎片，而我只想分给你最大的一片。那片叫余生。"
     "两个人起得很早，因为迪士尼乐园离市区还有很长的一段距离，两个人必须尽早出发。"
@@ -48,5 +48,6 @@ label chapter21Mid:
     hide baizhi
     show bg black
     with dissolve
+    stop music fadeout 1.0
     "苍梧来怨慕，白芷动芳馨，end"
     jump chapter21End

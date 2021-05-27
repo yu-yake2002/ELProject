@@ -80,7 +80,7 @@ label chapter21End:
     return
 
 label chapter22End:
-    jump chapter21Start
+    jump chapter23Start
 label chapter23End:
     return
 

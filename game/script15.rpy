@@ -31,7 +31,9 @@ label chapter15Start:
     scene bg train day
     "一番折腾过后，两个人终于上了火车。汽笛声响起，一个新的篇章开始了。"
     "旅客朋友们你们好，欢迎乘坐K137次列车，本次列车自南通站出发，终点车站昆明。旅途风光优美，旅客在旅途困顿之余，可以欣赏沿途的美景~"
+    stop music fadeout 1.0
     "在火车上总要找点事情做。半夏提到了她们地区盛行的一种卡牌游戏。"
+    play music "../audio/poker.mp3"
     show banxia near calm
     f2 "你听过“干瞪眼”吗？"
     m1 "没听过，是新游戏哦？"

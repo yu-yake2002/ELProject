@@ -5,6 +5,7 @@ label chapter23Start:
 label chapter23Mid:
     scene bg black
     with dissolve
+    play music "../audio/chapter23.mp3"
     "在那个晚上，半夏翻来覆去地睡不着。那个自己日思夜想的男孩子，就在一墙之隔。"
     f2 "钟表的滴答声将时间切成碎片，而我只想分给你最大的一片。那片叫余生。"
     "两个人起得很早，因为迪士尼乐园离市区还有很长的一段距离，两个人必须尽早出发。"
@@ -47,5 +48,6 @@ label chapter23Mid:
     hide banxia
     show bg black
     with dissolve
+    stop music fadeout 1.0
     "花开半夏，end"
     jump chapter23End
