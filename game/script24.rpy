@@ -1,5 +1,4 @@
 label chapter24Start:
-    play music "../audio/chapter24.mp3"
     scene bg school of environment center
     "大学时光已经过了两年。林枫的学习遇到了一些瓶颈。他的实验结果远没有他预料之中的成功。他决定找与自己曾经有过交集的半夏和白芷聊聊天。"
     show baizhi near sad
@@ -27,6 +26,7 @@ label chapter24Start:
     "半夏走了出来。她的手牵着另一个女生。那个女生右手的中指也在闪闪发光。我便明白了一切。半夏最近和一个女生走的很近，自己是知道的。"
     "曾经，因为半夏周围没有别的男生，我便放松了警惕。但是我没想到，现在是21世纪！"
     hide banxia
+    play music "../audio/chapter24.mp3"
     scene bg gulou campus
     "我懊恼地从校园门口走了出来。这个校园已经没有什么能够让他留恋的了。自己与新室友关系不和，实验一再碰壁，两个仅存的异性朋友也不再能和自己走得太近了。"
     scene bg black
