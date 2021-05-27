@@ -2,6 +2,8 @@
 
 A galgame developed by NJU 5A641.
 
+## 以下内容图一乐，基本上没按照这个流程来做
+
 ## 目录结构
 
 ### ./scenario
