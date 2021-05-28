@@ -2,8 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script13.rpy", line 9: is not terminated with a newline. (Check strings and parenthesis.)
-        image baizhi gradient = AlphaMask("images/other/gradient.jpg", Image("images/baizhi/baizhi far happy.png")
+File "game/script.rpy", line 17: expected 'image_name_component' not found.
+    show "./gui/classify.png"
+         ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Tue May 25 21:31:58 2021
+Fri May 28 22:22:29 2021

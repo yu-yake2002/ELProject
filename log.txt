@@ -1,279 +1,65 @@
-Thu May 27 21:30:01 2021
+Fri May 28 22:25:26 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.4.1439
  
 
 Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
-Loader init took 0.04s
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_errorhandling.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_shaders.rpymc'
-Loading error handling took 0.10s
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/000atl.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/000namespaces.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/000statements.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/000window.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00accessibility.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00achievement.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00action_audio.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00action_control.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00action_data.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00action_file.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00action_menu.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00action_other.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00audio.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00barvalues.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00build.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00compat.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00console.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00defaults.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00definitions.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00director.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00gallery.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00gamemenu.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00gamepad.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00gltest.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00gui.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00iap.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00icon.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00iconbutton.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00images.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00inputvalues.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00keymap.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00layeredimage.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00layout.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00library.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00matrixcolor.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00mixers.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00musicroom.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00nvl_mode.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00obsolete.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00performance.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00placeholder.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00preferences.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00sideimage.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00splines.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00start.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00style.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00stylepreferences.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00themes.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00touchkeyboard.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00updater.rpyc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/00voice.rpyc'
-Loading script took 1.64s
-Loading save slot metadata. took 0.03s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_layout/screen_preferences.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_layout/classic_joystick_preferences.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_layout/screen_main_menu.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_layout/classic_navigation.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_layout/screen_yesno_prompt.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_layout/screen_load_save.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_developer/developer.rpymc'
-Traceback (most recent call last):
-  File "renpy/script.py", line 632, in load_file
-    with open(rpycfn, "wb") as f:
-IOError: [Errno 13] Permission denied: u'C:\\Program Files\\RenPy\\renpy-7.4.4-sdk/renpy/common/_developer/inspector.rpymc'
-Running init code took 0.14s
-Loading analysis data took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\sunji\\AppData\\Roaming/RenPy/backups\\cncarbonneutralization':
-Dump and make backups. took 0.07s
+Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
+Creating interface object took 0.23s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.06s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.06s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 457.71'
+Display Info: None
+Number of texture units: 32
+Using shader environment.
+Using FBO RTT.
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Using gl renderer.
+Texture testing:
+- Hardware max texture size: 32768
+- 64px textures work.
+- 128px textures work.
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Screen sizes: virtual=(1920, 1080) physical=(1317, 741) drawable=(1317, 741)
+Root FBO is: 0
+FBO Maximum Texture Size: 2048
+Total time until interface ready: 1.26800107956s

@@ -14,6 +14,10 @@ default val1 = 0
 default val2 = 0
 
 label before_main_menu:
+    image cl= "../gui/classify.png"
+    show cl
+    with dissolve
+    pause 2.0
     $ renpy.movie_cutscene("../video/startMovie.mpg")
     return
 
