@@ -141,7 +141,6 @@ A galgame developed by NJU 5A641.
 孙际儒：
 - 产品经理
 - 立绘
-- CV（女性角色）
 - 剧本
 - 客户经理
 
@@ -149,4 +148,3 @@ A galgame developed by NJU 5A641.
 - 背景
 - 剧本
 - pre
-- CV（男性角色）
